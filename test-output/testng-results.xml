@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="73498" started-at="2016-04-05T09:00:26Z" finished-at="2016-04-05T09:01:40Z">
+  <suite name="Default suite" duration-ms="98475" started-at="2016-04-05T09:59:46Z" finished-at="2016-04-05T10:01:25Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="73498" started-at="2016-04-05T09:00:26Z" finished-at="2016-04-05T09:01:40Z">
+    <test name="Default test" duration-ms="98475" started-at="2016-04-05T09:59:46Z" finished-at="2016-04-05T10:01:25Z">
       <class name="rm.testScript.LoginRM">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:rm.testScript.LoginRM@2133c8f8]" name="beforeClass" is-config="true" duration-ms="2090" started-at="2016-04-05T17:00:26Z" finished-at="2016-04-05T17:00:28Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:rm.testScript.LoginRM@3ac3fd8b]" name="beforeClass" is-config="true" duration-ms="2459" started-at="2016-04-05T17:59:46Z" finished-at="2016-04-05T17:59:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="loginRM()[pri:0, instance:rm.testScript.LoginRM@2133c8f8]" name="loginRM" duration-ms="69870" started-at="2016-04-05T17:00:28Z" finished-at="2016-04-05T17:01:38Z">
+        <test-method status="PASS" signature="loginRM()[pri:0, instance:rm.testScript.LoginRM@3ac3fd8b]" name="loginRM" duration-ms="94737" started-at="2016-04-05T17:59:49Z" finished-at="2016-04-05T18:01:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginRM -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:rm.testScript.LoginRM@2133c8f8]" name="afterClass" is-config="true" duration-ms="1516" started-at="2016-04-05T17:01:38Z" finished-at="2016-04-05T17:01:40Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:rm.testScript.LoginRM@3ac3fd8b]" name="afterClass" is-config="true" duration-ms="1254" started-at="2016-04-05T18:01:23Z" finished-at="2016-04-05T18:01:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->

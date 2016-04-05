@@ -2,7 +2,9 @@ package rm.testScript;
 
 import static rm.util.WaitUitl.*;
 import static rm.util.WaitUitl.*;
+import static rm.util.Log.*;
 
+import org.apache.log4j.xml.DOMConfigurator;
 import org.apache.xerces.impl.xpath.XPath;
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
@@ -15,6 +17,8 @@ import org.testng.annotations.Test;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.AfterClass;
 
+import rm.util.Log;
+
 import com.thoughtworks.selenium.webdriven.commands.IsElementPresent;
 
 public class LoginRM {
@@ -26,6 +30,7 @@ public class LoginRM {
 	public void loginRM() {
 
 		driver.get(baseUrl);
+		Log.startTestCase("Navigate to RM");
 		sleep(4000);
 		WebElement userName = driver.findElement(By
 				.xpath("//*[@id='username']"));
@@ -42,13 +47,17 @@ public class LoginRM {
 
 		waitWebElement(driver, "//*[@id='popup.wizzard.header']");
 
+		Log.info("Verify if the page loaded successfully");
 		Assert.assertTrue(IsElementPresent(driver,
 				"//*[@id='wizzardStartImage']"));
+
+		Log.endTestCase("End ");
 	}
 
 	@BeforeClass
 	public void beforeClass() {
 
+		DOMConfigurator.configure("Log4j.xml");
 		System.setProperty("webdriver.chrome.driver",
 				"C:\\Program Files (x86)\\Google\\Chrome\\Application\\chromedriver.exe");
 		driver = new ChromeDriver();
