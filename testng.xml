@@ -1,0 +1,8 @@
+<suite name="TestNGSuiteName">
+	<test name="testname">
+		<classes>
+			<class name="rm.testScript.LoginRM" />
+			<class name="rm.testScript.HelloWorld" />
+		</classes>
+	</test>
+</suite>

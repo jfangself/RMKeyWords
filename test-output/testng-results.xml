@@ -1,25 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="98475" started-at="2016-04-05T09:59:46Z" finished-at="2016-04-05T10:01:25Z">
+  <suite name="TestNGSuiteName" duration-ms="94375" started-at="2016-04-06T07:32:00Z" finished-at="2016-04-06T07:33:35Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="98475" started-at="2016-04-05T09:59:46Z" finished-at="2016-04-05T10:01:25Z">
+    <test name="testname" duration-ms="94375" started-at="2016-04-06T07:32:00Z" finished-at="2016-04-06T07:33:35Z">
+      <class name="rm.testScript.HelloWorld">
+        <test-method status="PASS" signature="f()[pri:0, instance:rm.testScript.HelloWorld@5ba23b66]" name="f" duration-ms="1" started-at="2016-04-06T15:33:35Z" finished-at="2016-04-06T15:33:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- rm.testScript.HelloWorld -->
       <class name="rm.testScript.LoginRM">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:rm.testScript.LoginRM@3ac3fd8b]" name="beforeClass" is-config="true" duration-ms="2459" started-at="2016-04-05T17:59:46Z" finished-at="2016-04-05T17:59:49Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:rm.testScript.LoginRM@6debcae2]" name="beforeClass" is-config="true" duration-ms="2095" started-at="2016-04-06T15:32:00Z" finished-at="2016-04-06T15:32:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="loginRM()[pri:0, instance:rm.testScript.LoginRM@3ac3fd8b]" name="loginRM" duration-ms="94737" started-at="2016-04-05T17:59:49Z" finished-at="2016-04-05T18:01:23Z">
+        <test-method status="PASS" signature="loginRM()[pri:0, instance:rm.testScript.LoginRM@6debcae2]" name="loginRM" duration-ms="90871" started-at="2016-04-06T15:32:02Z" finished-at="2016-04-06T15:33:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginRM -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:rm.testScript.LoginRM@3ac3fd8b]" name="afterClass" is-config="true" duration-ms="1254" started-at="2016-04-05T18:01:23Z" finished-at="2016-04-05T18:01:25Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:rm.testScript.LoginRM@6debcae2]" name="afterClass" is-config="true" duration-ms="1392" started-at="2016-04-06T15:33:33Z" finished-at="2016-04-06T15:33:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- rm.testScript.LoginRM -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- testname -->
+  </suite> <!-- TestNGSuiteName -->
 </testng-results>
