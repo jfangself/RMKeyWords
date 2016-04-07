@@ -5,3 +5,6 @@
 2016-04-06 15:32:33  [rm.util.Log] (main:) ---------        "Navigate to RM"begin execution     ---------
 2016-04-06 15:33:33  [rm.util.Log] (main:) Verify if the page loaded successfully
 2016-04-06 15:33:33  [rm.util.Log] (main:) ---------        "End "end execution     ---------
+2016-04-06 16:53:13  [rm.util.Log] (main:) ---------        "Navigate to RM"begin execution     ---------
+2016-04-06 16:54:01  [rm.util.Log] (main:) Verify if the page loaded successfully
+2016-04-06 16:54:01  [rm.util.Log] (main:) ---------        "End "end execution     ---------
