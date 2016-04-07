@@ -3,6 +3,12 @@
 <suite name="Failed suite [TestNGSuiteName]">
   <test name="testname(failed)">
     <classes>
+      <class name="rm.testScript.HelloWorld">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- rm.testScript.HelloWorld -->
       <class name="rm.testScript.LoginRM">
         <methods>
           <include name="beforeClass"/>

@@ -8,3 +8,14 @@
 2016-04-06 16:53:13  [rm.util.Log] (main:) ---------        "Navigate to RM"begin execution     ---------
 2016-04-06 16:54:01  [rm.util.Log] (main:) Verify if the page loaded successfully
 2016-04-06 16:54:01  [rm.util.Log] (main:) ---------        "End "end execution     ---------
+2016-04-07 16:53:27  [rm.util.Log] (main:) ---------        "Navigate to RM"begin execution     ---------
+2016-04-07 16:54:16  [rm.util.Log] (main:) Verify if the page loaded successfully
+2016-04-07 16:54:16  [rm.util.Log] (main:) ---------        "End "end execution     ---------
+2016-04-07 16:56:27  [rm.util.Log] (main:) ---------        "Navigate to RM"begin execution     ---------
+2016-04-07 16:59:55  [rm.util.Log] (main:) ---------        "Navigate to RM"begin execution     ---------
+2016-04-07 17:00:35  [rm.util.Log] (main:) Verify if the page loaded successfully
+2016-04-07 17:00:36  [rm.util.Log] (main:) ---------        "End "end execution     ---------
+2016-04-07 17:15:11  [rm.util.Log] (main:) ---------        "Navigate to RM"begin execution     ---------
+2016-04-07 17:17:36  [rm.util.Log] (main:) ---------        "Navigate to RM"begin execution     ---------
+2016-04-07 17:18:04  [rm.util.Log] (main:) Verify if the page loaded successfully
+2016-04-07 17:18:04  [rm.util.Log] (main:) ---------        "End "end execution     ---------
