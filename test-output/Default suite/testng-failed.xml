@@ -6,8 +6,7 @@
       <class name="rm.testScript.HelloWorld">
         <methods>
           <include name="beforeClass"/>
-          <include name="afterClass"/>
-          <include name="HelloWorld"/>
+          <include name="helloWorld"/>
         </methods>
       </class> <!-- rm.testScript.HelloWorld -->
     </classes>

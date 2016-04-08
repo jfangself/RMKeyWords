@@ -2,34 +2,34 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="TestNGSuiteName" duration-ms="58896" started-at="2016-04-07T09:17:20Z" finished-at="2016-04-07T09:18:19Z">
+  <suite name="TestNGSuiteName" duration-ms="109959" started-at="2016-04-08T03:15:04Z" finished-at="2016-04-08T03:16:54Z">
     <groups>
     </groups>
-    <test name="testname" duration-ms="58896" started-at="2016-04-07T09:17:20Z" finished-at="2016-04-07T09:18:19Z">
+    <test name="testname" duration-ms="109959" started-at="2016-04-08T03:15:04Z" finished-at="2016-04-08T03:16:54Z">
       <class name="rm.testScript.HelloWorld">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:rm.testScript.HelloWorld@c818063]" name="beforeClass" is-config="true" duration-ms="2007" started-at="2016-04-07T17:18:06Z" finished-at="2016-04-07T17:18:08Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:rm.testScript.HelloWorld@75bd9247]" name="beforeClass" is-config="true" duration-ms="5993" started-at="2016-04-08T11:16:32Z" finished-at="2016-04-08T11:16:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="helloWorld()[pri:0, instance:rm.testScript.HelloWorld@c818063]" name="helloWorld" duration-ms="10510" started-at="2016-04-07T17:18:08Z" finished-at="2016-04-07T17:18:18Z">
+        <test-method status="PASS" signature="helloWorld()[pri:0, instance:rm.testScript.HelloWorld@75bd9247]" name="helloWorld" duration-ms="15369" started-at="2016-04-08T11:16:38Z" finished-at="2016-04-08T11:16:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- helloWorld -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:rm.testScript.HelloWorld@c818063]" name="afterClass" is-config="true" duration-ms="1081" started-at="2016-04-07T17:18:18Z" finished-at="2016-04-07T17:18:19Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:rm.testScript.HelloWorld@75bd9247]" name="afterClass" is-config="true" duration-ms="551" started-at="2016-04-08T11:16:53Z" finished-at="2016-04-08T11:16:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- rm.testScript.HelloWorld -->
       <class name="rm.testScript.LoginRM">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:rm.testScript.LoginRM@2ff4f00f]" name="beforeClass" is-config="true" duration-ms="2230" started-at="2016-04-07T17:17:20Z" finished-at="2016-04-07T17:17:23Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:rm.testScript.LoginRM@3f0ee7cb]" name="beforeClass" is-config="true" duration-ms="2402" started-at="2016-04-08T11:15:04Z" finished-at="2016-04-08T11:15:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="loginRM()[pri:0, instance:rm.testScript.LoginRM@2ff4f00f]" name="loginRM" duration-ms="41874" started-at="2016-04-07T17:17:23Z" finished-at="2016-04-07T17:18:04Z">
+        <test-method status="PASS" signature="loginRM()[pri:0, instance:rm.testScript.LoginRM@3f0ee7cb]" name="loginRM" duration-ms="84075" started-at="2016-04-08T11:15:06Z" finished-at="2016-04-08T11:16:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginRM -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:rm.testScript.LoginRM@2ff4f00f]" name="afterClass" is-config="true" duration-ms="1168" started-at="2016-04-07T17:18:04Z" finished-at="2016-04-07T17:18:06Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:rm.testScript.LoginRM@3f0ee7cb]" name="afterClass" is-config="true" duration-ms="1558" started-at="2016-04-08T11:16:30Z" finished-at="2016-04-08T11:16:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
